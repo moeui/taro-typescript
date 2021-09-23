@@ -1,0 +1,202 @@
+.home
+    height: 100vh
+
+    .initBox
+        background: linear-gradient(#29B85C, #67D38E)
+        height: 100vh
+
+        .header
+            text-align: center
+            color: #fff
+
+            .title
+                font-size: 32px
+                padding: 130px 0 27px
+
+            .info
+                font-size: 24px
+                padding: 0 0 25px
+
+                .yellow
+                    color: #FFD100
+
+                .number
+                    font-weight: bold
+                    text-decoration: underline
+
+        .footer
+            font-size: 24px
+            color: #fff
+            padding: 60px 0 77px
+            text-align: center
+
+        .imgWrap
+            margin: 0 auto
+            width: 470px
+            box-sizing: border-box
+            padding: 0 0 0 60px
+
+        .img
+            margin: 0 auto
+            display: block
+            width: 470px
+            height: 470px
+
+        .btn
+            text-align: center
+            width: 300px
+            height: 86px
+            line-height: 86px
+            background: #FFFFFF
+            box-shadow: 0px 5px 29px 3px rgba(62, 193, 109, 0.35)
+            border-radius: 43px
+            display: block
+            margin: 0 auto
+            font-size: 30px
+            color: #3EC16D
+
+    .tipBox
+        background: linear-gradient(#29B85C, #67D38E)
+        height: 100vh
+        position: relative
+
+        .tipMain
+            text-align: center
+            color: #fff
+            font-size: 30px
+            padding: 130px 90px 0
+            z-index: 2
+            position: relative
+
+        .ButtonPNG
+            width: 272px
+            height: 128px
+            z-index: 2
+            position: relative
+            margin: 374px 0 0 366px
+
+        .ArrowPNG
+            width: 100px
+            height: 128px
+            z-index: 2
+            position: relative
+            display: block
+            margin: 0 0 0 417px
+
+        .tipArrow
+            text-align: center
+            color: #fff
+            font-size: 30px
+            z-index: 2
+            position: relative
+            margin: 4px 0 70px
+
+        .btn
+            width: 302px
+            height: 88px
+            line-height: 88px
+            border: 2px solid #FFFFFF
+            border-radius: 43px
+            text-align: center
+            background: none
+            color: #fff
+            font-size: 30px
+            z-index: 2
+            position: relative
+
+        .bg
+            background: rgba(#000, 0.5)
+            height: 100vh
+            width: 100vh
+            position: absolute
+            top: 0
+            left: 0
+            z-index: 1
+
+        .BlockPNG
+            width: 530px
+            height: 478px
+            position: absolute
+            top: 262px
+            left: 50%
+            transform: translateX(-50%)
+
+    .searchBox
+        align-items: center
+        background: #F4F4F4
+
+        .imageWrap
+            height: 456px
+            background: linear-gradient(#29B85C, #67D38E)
+            padding: 88px 0 0
+            box-sizing: border-box
+
+            .img
+                height: 180px
+                width: 148px
+                margin: 0 auto
+                display: block
+
+        .scrollView
+            margin: -62px 0 0
+
+            .item
+                margin: 0 auto 20px
+                width: 690px
+                height: 180px
+                background: #FFFFFF
+                border-radius: 20px
+                box-sizing: border-box
+                padding: 26px 0 26px 129px
+                position: relative
+                display: flex
+                flex-flow: column
+                justify-content: center
+
+                .img
+                    height: 70px
+                    width: 70px
+                    position: absolute
+                    left: 30px
+                    top: 55px
+
+                .name
+                    font-size: 35px
+                    color: #000
+
+                .deviceId
+                    font-size: 28px
+                    height: 28px
+                    margin: 16px 0 20px
+                    color: #575757
+
+                .rssi
+                    font-size: 28px
+                    height: 28px
+                    color: #A5A5A5
+
+        .btnWrap
+            position: fixed
+            bottom: 0
+            width: 100%
+            background: #F4F4F4
+            padding: 30px 0 70px
+
+            .btn
+                margin: 0 auto
+                width: 630px
+                height: 106px
+                line-height: 106px
+                background: linear-gradient(-90deg, #29B85C, #67D38E)
+                border-radius: 53px
+                box-shadow: 0 10px 25px rgba(#29B85C, 0.5)
+                font-size: 36px
+                color: #fff
+                display: flex
+                align-items: center
+                justify-content: center
+
+                .icon
+                    width: 44px
+                    height: 44px
+                    margin: 0 20px 0 0
